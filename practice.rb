@@ -19,6 +19,34 @@ blockchain = [
 
 # Write code below that returns the number of KelloggCoin that each user has in their 
 # KelloggCoin "wallet".
+# bens_balance = 0
+# brians_balance = 0
+# evans_balance = 0
+# anthonys_balance = 0
+# for transaction in blockchain
+# if transaction["from_user"]=="ben"
+#   bens_balance = bens_balance - transaction["amount"]
+# elsif transaction["from_user"]== "brian"
+#   brians_balance = brians_balance - transaction["amount"]
+# elsif transaction["from_user"]== "evan"
+#   evans_balance= evans_balance-transaction["amount"]
+# elsif transaction["from_user"]== "anthony"
+#   anthonys_balance=anthonys_balance-transaction["amount"]
+# end
+# if transaction["to_user"] == "ben"
+#   bens_balance = bens_balance + transaction["amount"]
+# elsif transaction["to_user"] == "brian"
+#   brians_balance = brians_balance + transaction["amount"]
+# elsif transaction["to_user"]=="evan"
+#   evans_balance = evans_balance + transaction["amount"]
+# elsif transaction["to_user"] == "anthony"
+#   anthonys_balance=anthonys_balance + transaction["amount"]
+# end
+# end
+# puts "Ben's KelloggCoin Balance is #{bens_balance}"
+# puts "Brians's KelloggCoin Balance is #{brians_balance}"
+# puts "Evan's KelloggCoin Balance is #{evans_balance}"
+# puts "Anthony's KelloggCoin Balance is #{anthonys_balance}"
 
 # It should print out:
 # Ben's KelloggCoin balance is 14000
@@ -27,3 +55,5 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+
+
